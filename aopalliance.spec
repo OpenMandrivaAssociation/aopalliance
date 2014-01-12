@@ -1,7 +1,7 @@
-%_javapackages_macros
+%{?_javapackages_macros:%_javapackages_macros}
 Name:           aopalliance
 Version:        1.0
-Release:        7.0%{?dist}
+Release:        7.1%{?dist}
 Epoch:          0
 Summary:        Java/J2EE AOP standards
 License:        Public Domain
