@@ -1,8 +1,7 @@
 %{?_javapackages_macros:%_javapackages_macros}
 Name:           aopalliance
 Version:        1.0
-Release:        7.1%{?dist}
-Epoch:          0
+Release:        8
 Summary:        Java/J2EE AOP standards
 License:        Public Domain
 URL:            http://aopalliance.sourceforge.net/
@@ -58,27 +57,3 @@ cp -pr build/javadoc/* %{buildroot}%{_javadocdir}/%{name}
 
 %files javadoc
 %{_javadocdir}/%{name}
-
-%changelog
-* Sat Aug 03 2013 Fedora Release Engineering <rel-eng@lists.fedoraproject.org> - 0:1.0-7
-- Rebuilt for https://fedoraproject.org/wiki/Fedora_20_Mass_Rebuild
-
-* Fri Jun 14 2013 Mikolaj Izdebski <mizdebsk@redhat.com> - 0:1.0-6
-- Drop BR on zip, use jar instead
-- Add more verbose description
-- Update to current packaging guidelines
-
-* Mon Feb 25 2013 Gerard Ryan <galileo.fedoraproject.org> 0:1.0-5
-- Add OSGI manifest
-
-* Wed Feb 13 2013 Fedora Release Engineering <rel-eng@lists.fedoraproject.org> - 0:1.0-4
-- Rebuilt for https://fedoraproject.org/wiki/Fedora_19_Mass_Rebuild
-
-* Tue Nov 20 2012 Tomas Radej <tradej@redhat.com> - 0:1.0-3
-- Fixed tarball generation guide
-
-* Wed Jul 18 2012 Fedora Release Engineering <rel-eng@lists.fedoraproject.org> - 0:1.0-2
-- Rebuilt for https://fedoraproject.org/wiki/Fedora_18_Mass_Rebuild
-
-* Mon Feb 6 2012 Andy Grimm <agrimm@gmail.com> 0:1.0-1
-- build for Fedora
