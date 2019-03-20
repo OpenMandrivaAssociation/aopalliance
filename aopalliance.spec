@@ -14,6 +14,8 @@ Source1:        http://repo1.maven.org/maven2/aopalliance/aopalliance/1.0/aopall
 Source2:        %{name}-MANIFEST.MF
 
 BuildRequires:  ant
+BuildRequires:	javapackages-local
+BuildRequires:	java-devel
 Requires:       java
 
 %description
