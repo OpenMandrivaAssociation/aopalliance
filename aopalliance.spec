@@ -4,7 +4,7 @@ Version:        1.0
 Release:        9
 Summary:        Java/J2EE AOP standards
 License:        Public Domain
-URL:            http://aopalliance.sourceforge.net/
+URL:            https://aopalliance.sourceforge.net/
 BuildArch:      noarch
 # cvs -d:pserver:anonymous@aopalliance.cvs.sourceforge.net:/cvsroot/aopalliance login
 # password empty
